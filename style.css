@@ -1,34 +1,180 @@
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #17a2b8;
-    height: 100vh;
-  }
-  #login .container #login-row #login-column #login-box {
-    margin-top: 120px;
-    max-width: 600px;
-    height: 320px;
-    border: 1px solid #9C9C9C;
-    background-color: #ff0404;
-  }
-  #login .container #login-row #login-column #login-box #login-form {
-    padding: 20px;
-  }
-  #login .container #login-row #login-column #login-box #login-form #register-link {
-    margin-top: -85px;
-  } */
+.square{
+  position: relative;
+  
+  width: 510px;
+  height: fit-content;
 
-.colorgraph {
-  height: 5px;
-  border-top: 0;
-  background: #ffffff;
-  border-radius: 5px;
-  background-image: -webkit-linear-gradient(left, #e4fdaa, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  margin: auto;
+  margin-top: 15%;
+  background: #FFFFFF;
+  border: 1px solid #ffffff;
+  box-shadow: 10px 10px 10px rgba(47, 47, 47, 0.25);
+  border-radius: 40px;
+  filter: opacity(96%);
+  }
+  
+body{
+  background-image: url(vadim-bogulov-In9Tha9_Hu4-unsplash.jpg);
+  background-size: cover;
 }
 
-.Register{
-  width: 100%;
+.fblogin{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px;
+
+  position: static;
+  width: 345px;
+  height: 54px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  background: #1877F2;
+  border-radius: 10px;
 }
+
+.fb{
+  position: static;
+  width: 205px;
+  height: 23px;
+  left: 54px;
+  top: 15px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  
+  color: #FFFFFF;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 15px;
+}
+
+.gologin{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px;
+
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: static;
+  width: 345px;
+  height: 54px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  border-radius: 10px;
+}
+
+.gg{
+  position: static;
+  width: 167px;
+  height: 23px;
+  left: 54px;
+  top: 15px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: rgba(0, 0, 0, 0.54);
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 15px;
+}
+
+.iplogin{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px;
+
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  position: static;
+  width: 345px;
+  height: 54px;
+
+  background: #000000;
+  border-radius: 10px;
+}
+
+.ip{
+  position: static;
+  width: 148px;
+  height: 24px;
+  left: 54px;
+  top: 15px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 15px;
+}
+
+.batas{
+  padding:4%;
+  text-align: center;
+  font-weight: bold; 
+}
+
+form{
+  margin-left: 15.5%;
+  margin-right: 15.5%;
+}
+
+.form-check{
+  margin-bottom: 5%;
+}
+
+.btn-success{
+  margin:auto;
+  width: 345px;
+  height: 50px;
+}
+
+.btn-link{
+  margin-left: 40%;
+}
+
+.komentar{
+text-align: center;
+width: 70%;
+margin: auto;
+margin-bottom: 8%;
+}
+
+
